@@ -1,0 +1,23 @@
+\documentclass[a4paper,report,12pt]{jsbook}
+
+\input{personal_setting}%著者に合わせて中身を書き換える
+\input{setting}%基本的に書き換えない
+
+\begin{document}
+
+  \include{titlepage}%personal_settingの内容に合わせて自動化
+  \include{cmember}%主査，副査の内容を書き換える必要がある
+  \pagenumbering{roman}
+  \include{jabstract}%personal_settingの内容に合わせて自動化
+  \include{eabstract}%personal_settingの内容に合わせて自動化
+
+  \tableofcontents
+  \listoffigures
+  \listoftables
+  \clearpage
+  %\listoftables
+
+  \pagenumbering{arabic}
+  \input{intro}%序論，以降はtemp.texをコピーして追加する
+
+\end{document}
