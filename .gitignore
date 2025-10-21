@@ -1,0 +1,55 @@
+# ===== LaTeX 中間生成ファイル =====
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.nav
+*.snm
+*.vrb
+
+# ===== LaTeX Workshop 出力フォルダ =====
+out/
+out/**
+
+# ===== PDF も除外したい場合（必要ならコメントアウト外す） =====
+# *.pdf
+
+# ===== VS Code 設定 =====
+.vscode/
+.history/
+*.code-workspace
+
+# ===== OSごとのゴミファイル =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== PythonやTexの仮想環境を使う場合 =====
+venv/
+__pycache__/
+*.pyc
