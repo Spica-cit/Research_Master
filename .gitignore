@@ -25,6 +25,7 @@
 *.nav
 *.snm
 *.vrb
+*.pdf
 
 # ===== LaTeX Workshop 出力フォルダ =====
 out/
